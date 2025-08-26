@@ -1,0 +1,34 @@
+# ===== .NET / Visual Studio =====
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vsp
+*.vspscc
+*.vssscc
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+.vs/
+*.pdb
+*.cache
+*.log
+TestResults/
+appsettings.Development.json
+appsettings.Local.json
+
+# ===== Node / Angular =====
+angular-app/node_modules/
+angular-app/dist/
+angular-app/.angular/
+angular-app/npm-debug.log*
+angular-app/yarn-debug.log*
+angular-app/yarn-error.log*
+angular-app/.env
+
+# ===== Common / OS =====
+*.DS_Store
+*.db
+*.sqlite
+*.bak
